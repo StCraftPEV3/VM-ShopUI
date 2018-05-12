@@ -34,8 +34,8 @@ public $Blocks = [
     "Spruce Wood" => [17,1,30,15],
     "Dark Oak Wood" => [162,1,30,15],
 	"Cobblestone" => [4,0,10,5],
-	"Obsidian" => [49,0,500,250],
-	"Bedrock" => [7,0,1500,500],
+	"Obsidian" => [49,0,30000,250],
+	"Bedrock" => [7,0,30000,500],
 	"Sand " => [12,0,15,7],
     "Sandstone " => [24,0,15,7],
 	"Nether Rack" => [87,0,15,7],
@@ -48,8 +48,8 @@ public $Blocks = [
     "Planks" => [5,0,20,10],
     "Prismarine" => [168,0,30,20],
     "End Stone" => [121,0,30,20],
-    "Emerald Block" => [133,0,100,50],
-    "Diamond Block" => [57,0,101,51],
+    "Emerald Block" => [133,0,100000,50000],
+    "Diamond Block" => [57,0,200000,50000],
     "Glass" => [20,0,50,30],
     "Iron Block" => [42,0,50,30],
     "Gold Block" => [41,0,50,30],
@@ -103,7 +103,7 @@ public $Blocks = [
 	"Cooked Chicken" => [366,0,10,5],
     "Steak" => [364,0,10,5],
     "Golden Apple" => [322,0,500,100],
-    "Enchanted Golden Apple" => [466,0,1000,100]
+    "Enchanted Golden Apple" => [466,0,100000,100]
   ];
 
   public $Miscellaneous = [
@@ -130,7 +130,7 @@ public $Blocks = [
     "Lava" => [10,0,50,10],
     "Redstone" => [331,0,50,25],
     "Chest" => [54,0,100,50],
-    "TNT" => [46,0,10000,500]
+    "TNT" => [46,0,10000,100]
   ];
 	
   public $Mobs = [
@@ -142,6 +142,8 @@ public $Blocks = [
     "Husk" => [383,47,50000,1000],
     "Zombie_Pigman" => [383,36,50000,1000],
     "Creeper" => [383,33,50000,1000],
+    "Iron_Golem" => [383,20,50000,1000],
+    "Snow Golem" => [383,21,50000,100],
     "Mob Spawner" => [52,0,55000,2000]
   ];
 
